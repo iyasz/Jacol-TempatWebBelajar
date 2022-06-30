@@ -18,7 +18,6 @@ html, body {
 
 .nav-bar {
     margin-left: 68px;
-    display: flex;
 }
 
 .nav-bar h1, .bodyText h1 {
@@ -65,6 +64,10 @@ html, body {
 
 /* Home */
 
+.bodyText p, .bodyText button, .student h3, .years h3, .rate h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
 .bodyFlex {
     margin-top: 110px;
     display: flex;
@@ -78,7 +81,6 @@ html, body {
 }
 
 .bodyText p {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.6px;
@@ -92,7 +94,6 @@ html, body {
     border-radius: 5px;
     padding: 6px 16px;
     color: white;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     letter-spacing: 0.5px;
     cursor: pointer;
@@ -115,7 +116,6 @@ html, body {
 }
 
 .student h3, .years h3, .rate h3{
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.4px;
@@ -147,8 +147,11 @@ html, body {
     padding-top: 60px;
 }
 
-.studyText h3 {
+.studyText h3, .studyText h2, .studyText p, .studyText button, .studyMapel h2, .studyMapel p, .topText h1 {
     font-family: 'Poppins', sans-serif;
+}
+
+.studyText h3 {
     font-weight: 200;
     color: whitesmoke;
     font-size: 13px;
@@ -159,7 +162,6 @@ html, body {
 
 .studyText h2 {
     color: white;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     letter-spacing: 1;
     font-size: 2.7em;
@@ -168,7 +170,6 @@ html, body {
 
 .studyText p {
     color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
     font-weight: 200;
     font-size: 12px;
     letter-spacing: 1px;
@@ -178,7 +179,6 @@ html, body {
     border: none;
     background-color: yellow;
     color: rgb(19, 19, 19);
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding: 7px 14px;
     border-radius: 6px;
@@ -211,14 +211,12 @@ html, body {
 
 
 .studyMapel h2 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: white;
     font-size: 21px;
 }
 
 .studyMapel p {
-    font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: whitesmoke;
     font-size: 12px;
@@ -238,11 +236,9 @@ html, body {
 .topText {
     text-align: center;
     margin-top: 120px;
-    line-height: 0.9;
 }
 
 .topText h1 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 2em;
 }
@@ -266,7 +262,6 @@ html, body {
 }
 
 .topLevel {
-    display: flex;
     margin-top: 50px;
 }
 
@@ -333,7 +328,6 @@ html, body {
 .navStudy a {
     text-decoration: none;
     letter-spacing: 0.6px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: rgb(24, 24, 24);
     font-size: 12px;
@@ -345,13 +339,17 @@ html, body {
     color: #8707dc;
 }
 
-.deskQuiz h3, .detailQuiz h3 {
+/* quiz  */
+
+.deskQuiz h3, .detailQuiz h3, .timeQuiz p, .materiQuiz p, .soalQuiz p, .deskQuiz p, .aboutUsHeader p {
     font-family: 'Poppins', sans-serif;
+}
+
+.deskQuiz h3, .detailQuiz h3, .timeQuiz p, .materiQuiz p, .soalQuiz p, .showMoreBtn {
     font-weight: 500;
 }
 
 .deskQuiz p, .aboutUsHeader p {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -369,7 +367,7 @@ html, body {
     font-size: 17px;
 }
 
-.timeQuiz, .materiQuiz, .soalQuiz {
+.timeQuiz, .materiQuiz, .soalQuiz, .colAllABout, .alumniAll, .nav-bar, .topLevel {
     display: flex;
 }
 
@@ -379,11 +377,13 @@ html, body {
 
 .timeQuiz p, .materiQuiz p, .soalQuiz p {
     font-size: 13px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
     margin-left: 10px;
     position: relative;
     top: -12px;
+}
+
+.startBtn, .showMoreBtn, .aboutUsHeader h1, .apaJacol p, .colAllABout p, .navStudy a {
+    font-family: 'Poppins', sans-serif;
 }
 
 .startBtn  {
@@ -392,7 +392,6 @@ html, body {
     border: none;
     border-radius: 4px;
     padding: 7px 70px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     letter-spacing: 0.4px;
     cursor: pointer;
@@ -401,8 +400,6 @@ html, body {
 .showMoreBtn {
     background: none;
     border: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
     letter-spacing: 0.4px;
     cursor: pointer;
     font-size: 12px;
@@ -416,12 +413,11 @@ html, body {
     margin-left: 20vh;
 }
 
-.aboutUsHeader {
+.aboutUsHeader, .topText, .colAlum1 h3 {
     line-height: 0.8;
 }
 
 .aboutUsHeader h1 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 37px;
 }
@@ -434,14 +430,9 @@ html, body {
 }
 
 .apaJacol p, .colAllABout p {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.4px;
-}
-
-.colAllABout {
-    display: flex;
 }
 
 .colAbout1 {
@@ -463,7 +454,6 @@ html, body {
 /* alumni */
 
 .alumniAll {
-    display: flex;
     margin-top: 40px;
 }
 
@@ -481,16 +471,13 @@ html, body {
 }
 
 .colAlum1 h3 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 0.4px;
-    line-height: 0.8;
     color: rgb(31, 31, 31);
 }
 
 .colAlum1 p {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -509,8 +496,11 @@ html, body {
     margin-top: 90px;
 }
 
-.sugestingAll h1 {
+.sugestingAll h1, .sugestingAll p, .footer, .colAlum1 p, .colAlum1 h3 {
     font-family: 'Poppins', sans-serif;
+}
+
+.sugestingAll h1 {
     font-weight: 600;
     font-size: 26px;
 }
@@ -520,7 +510,6 @@ html, body {
 }
 
 .sugestingAll p {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
@@ -532,7 +521,6 @@ html, body {
 
 .footer {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 11px;
     margin-top: 50px;
@@ -548,14 +536,5 @@ html, body {
     bottom: 33px;
     right: 30px;
     box-shadow:
-    0.3px 0.3px 1.2px rgba(0, 0, 0, 0.015),
-    0.8px 0.7px 2.7px rgba(0, 0, 0, 0.022),
-    1.3px 1.2px 4.6px rgba(0, 0, 0, 0.027),
-    1.9px 1.8px 6.9px rgba(0, 0, 0, 0.031),
-    2.8px 2.6px 10px rgba(0, 0, 0, 0.035),
-    3.9px 3.7px 14.2px rgba(0, 0, 0, 0.039),
-    5.5px 5.3px 20.1px rgba(0, 0, 0, 0.043),
-    8px 7.7px 29.2px rgba(0, 0, 0, 0.048),
-    12.4px 11.8px 45px rgba(0, 0, 0, 0.055),
-    22px 21px 80px rgba(0, 0, 0, 0.07);
+    0.3px 0.3px 1.2px rgba(0, 0, 0, 0.015), 0.8px 0.7px 2.7px rgba(0, 0, 0, 0.022),1.3px 1.2px 4.6px rgba(0, 0, 0, 0.027),1.9px 1.8px 6.9px rgba(0, 0, 0, 0.031),2.8px 2.6px 10px rgba(0, 0, 0, 0.035),3.9px 3.7px 14.2px rgba(0, 0, 0, 0.039),5.5px 5.3px 20.1px rgba(0, 0, 0, 0.043),8px 7.7px 29.2px rgba(0, 0, 0, 0.048),12.4px 11.8px 45px rgba(0, 0, 0, 0.055),22px 21px 80px rgba(0, 0, 0, 0.07);
 }
