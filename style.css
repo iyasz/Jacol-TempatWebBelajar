@@ -1,0 +1,561 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 3300px;
+}
+
+/* nav bar */
+
+.nav {
+    border-bottom: solid #eaeaea 1px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-bar {
+    margin-left: 68px;
+    display: flex;
+}
+
+.nav-bar h1, .bodyText h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nav-bar h1 {
+    font-size: 25px;
+}
+
+.navLink, .login {
+    margin-top: 24px;
+    margin-left: 230px;
+}
+
+.navLink a, .login a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.navLink a {
+    margin-right: 40px;    
+    opacity: 70%;
+}
+
+.navLink a:hover {
+    opacity: 100%;
+}
+
+.login a {
+    margin-left: 30px;
+}
+
+.signUp a {
+    background-color: rgb(30, 30, 30);
+    color: whitesmoke;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+/* Home */
+
+.bodyFlex {
+    margin-top: 110px;
+    display: flex;
+    margin-left: 130px;
+}
+
+.bodyText h1 {
+    font-size: 54px;
+    letter-spacing: 0.8px;
+    line-height: 1.2;
+}
+
+.bodyText p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    position: relative;
+    top: -20px;
+}
+
+.bodyText button {
+    background-color: rgb(35, 110, 222);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.statistik {
+    display: flex;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.student, .years, .rate {
+    margin-left: 13px;
+    height: 80px;
+}
+
+.student, .years {
+    border-right: solid rgb(2, 113, 165) 1px;
+    padding-right: 13px;
+}
+
+.student h3, .years h3, .rate h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+.student p, .years p, .rate p {
+    margin-top: 20px;
+}
+
+.bodyImg img {
+    width: 550px;
+    margin-left: 170px;
+}
+
+/* --Black Background Area--  */
+
+.colStudy {
+    background-color: rgb(8, 8, 8);
+    width: 84%;
+    margin-left: 108px;
+    border-radius: 24px;
+    margin-top: 30px;
+    height: 530px;
+}
+
+.studyFlex {
+    display: flex;
+    margin-left: 115px;
+    padding-top: 60px;
+}
+
+.studyText h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: whitesmoke;
+    font-size: 13px;
+    letter-spacing: 4px;
+    position: relative;
+    top: 25px;
+}
+
+.studyText h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1;
+    font-size: 2.7em;
+    line-height: 1.2;
+}
+
+.studyText p {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.studyText button {
+    border: none;
+    background-color: yellow;
+    color: rgb(19, 19, 19);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.studyMapel {
+    margin-left: 220px;
+    height: 420px;
+    overflow: auto;
+    padding-right: 30px;
+    background-color: #040404;
+    border-radius: 6px;
+}
+
+.studyMapel::-webkit-scrollbar {
+    width: 8px;
+}
+
+.studyMapel::-webkit-scrollbar-thumb {
+    background: rgb(22, 22, 22); 
+    border-radius: 4px;
+}
+
+.studyMapel::-webkit-scrollbar-track {
+    background: rgb(75, 75, 75);
+     border-radius: 4px;
+}
+
+
+.studyMapel h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 21px;
+}
+
+.studyMapel p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: whitesmoke;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+.mtk {
+    border-radius: 6px;
+    padding: 1px 14px;
+}
+
+.mtk:hover {
+    background-color: rgb(26, 25, 25);
+    cursor: pointer;
+}
+
+.topText {
+    text-align: center;
+    margin-top: 120px;
+    line-height: 0.9;
+}
+
+.topText h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.topText p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.topText button {
+    color: #1c19b0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #ada7eb;
+    padding: 3px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.topLevel {
+    display: flex;
+    margin-top: 50px;
+}
+
+.mentor, .levelKh, .ratingUser, .gulung {
+    display: flex;
+    margin-left: 145px;
+}
+
+.flexImg img {
+    width: 50px;
+    border-radius: 9px;
+    margin-right: 20px;
+}
+
+.flexMentor, .flexKh, .flexRate , .flexGulung  {
+    line-height: 0.4;
+}
+
+
+.flexMentor p, .flexKh p, .flexRate p, .flexGulung p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.flexMentor h3, .flexKh h3 , .flexGulung h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+} 
+
+.flexRate i {
+    color: rgb(244, 178, 25);
+}
+
+/* List */
+
+.flexStudy2 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 145px;
+}
+
+.navStudy {
+    width: 590px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 8px;
+}
+
+.navStudy::-webkit-scrollbar {
+    height: 3px;
+}
+.navStudy::-webkit-scrollbar-thumb {
+    background: rgb(75, 16, 212);
+    border-radius: 4px;
+}
+.navStudy::-webkit-scrollbar-track {
+    background: rgb(58, 58, 58); 
+    border-radius: 4px;
+}
+
+.navStudy a {
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(24, 24, 24);
+    font-size: 12px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.navStudy a:hover {
+    color: #8707dc;
+}
+
+.deskQuiz h3, .detailQuiz h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.deskQuiz p, .aboutUsHeader p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.detailQuiz {
+    margin-left: 240px;
+    background-color: #f6f6f6;
+    padding: 8px 20px 20px 15px;
+    border-radius: 7px;
+}
+
+.detailQuiz h3 {
+    font-size: 17px;
+}
+
+.timeQuiz, .materiQuiz, .soalQuiz {
+    display: flex;
+}
+
+.timeQuiz i, .materiQuiz i, .soalQuiz i {
+    font-size: 18px;
+}
+
+.timeQuiz p, .materiQuiz p, .soalQuiz p {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    position: relative;
+    top: -12px;
+}
+
+.startBtn  {
+    background: #3330e8;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+
+.showMoreBtn {
+    background: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #3330e8;
+    margin-top: 10px;
+    margin-left: 42px;
+}
+
+.aboutUs {
+    margin-top: 20vh;
+    margin-left: 20vh;
+}
+
+.aboutUsHeader {
+    line-height: 0.8;
+}
+
+.aboutUsHeader h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+}
+
+.apaJacol h1, .aboutTujuan h1, .alumniText h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 70px;
+}
+
+.apaJacol p, .colAllABout p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+.colAllABout {
+    display: flex;
+}
+
+.colAbout1 {
+    margin-right: 110px;
+}
+
+.colAllABout i {
+    color: #3330e8;
+    margin-right: 7px;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+}
+
+.colAllABout span {
+    margin-left: 23px;
+}
+
+/* alumni */
+
+.alumniAll {
+    display: flex;
+    margin-top: 40px;
+}
+
+.colAlum1 {
+    margin-left: 80px;
+}
+
+.colAlum1 img {
+    width: 170px;
+}
+
+.alumniText h1 {
+    margin-left: 13vh;
+    font-size: 27px;
+}
+
+.colAlum1 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 0.8;
+    color: rgb(31, 31, 31);
+}
+
+.colAlum1 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 0.4;
+}
+
+.colAlum1 i {
+    margin-right: 2px;
+    color: rgb(43, 43, 43);
+}
+
+/* bergabung */
+
+.sugestingAll {
+    margin-left: 20vh;
+    margin-top: 90px;
+}
+
+.sugestingAll h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.sugestingAll i {
+    margin-right: 7px;
+}
+
+.sugestingAll p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sugestingAll a {
+    text-decoration: none;
+    color: #a154d5;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 50px;
+}
+
+.costumer i {
+    background-color: #040404;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 11px 11px;
+    font-size: 35px;
+    position: fixed;
+    bottom: 33px;
+    right: 30px;
+    box-shadow:
+    0.3px 0.3px 1.2px rgba(0, 0, 0, 0.015),
+    0.8px 0.7px 2.7px rgba(0, 0, 0, 0.022),
+    1.3px 1.2px 4.6px rgba(0, 0, 0, 0.027),
+    1.9px 1.8px 6.9px rgba(0, 0, 0, 0.031),
+    2.8px 2.6px 10px rgba(0, 0, 0, 0.035),
+    3.9px 3.7px 14.2px rgba(0, 0, 0, 0.039),
+    5.5px 5.3px 20.1px rgba(0, 0, 0, 0.043),
+    8px 7.7px 29.2px rgba(0, 0, 0, 0.048),
+    12.4px 11.8px 45px rgba(0, 0, 0, 0.055),
+    22px 21px 80px rgba(0, 0, 0, 0.07);
+}
